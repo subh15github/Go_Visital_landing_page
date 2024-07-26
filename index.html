@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Go Visital Landing Page</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="images/govisital logo.png"
+            width="64"
+            height="24"
+            alt="logo"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img
+                src="images/govisital logo.png"
+                width="64"
+                height="24"
+                alt="logo"
+              />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="#" class="navbar-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">About</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Pages</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Pricing Plan</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Blogs</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <!-- home section start-->
+
+    <section class="slider-main">
+      <div class="home-container">
+          <div class="slider-content-wrap">                
+              <div class="slider-content">
+                  <h2 class="heading-style-2">Welcome to GoVisital <br> Empowering Your Digital Journey</h2>
+                  <p>At GoVisital, we believe in empowering businesses with innovative digital solutions that propel them forward in today's competitive landscape. With a focus on vision and digital excellence, we offer a suite of do-it-yourself software as a service portals designed to meet the diverse needs of modern enterprises.</p>
+              </div>               
+          </div>         
+      </div>
+      <div class="home-slider-images">       
+        <img class="home-slider-image" src="images/Collab-bro.png" alt="headphone image">        
+        <img class="home-slider-image" src="images/Company-amico.png" alt="headphone image">        
+        <img class="home-slider-image" src="images/Good team-pana.png" alt="headphone image">               
+        <img class="home-slider-image" src="images/Learning-bro.png" alt="headphone image">               
+        <img class="home-slider-image" src="images/Team work-amico.png" alt="headphone image">               
+    </div> 
+    <div id="backgrounds">
+        <div class="background" style="background: #0f6d60;"></div>
+        <div class="background" style="background: #0f6d60;"></div>
+        <div class="background" style="background: #0f6d60;"></div>
+        <div class="background" style="background: #0f6d60;"></div>
+        <div class="background" style="background: #0f6d60;"></div>
+    </div>
+  </section>
+
+    <!-- home section end -->
+
+    <!-- logo section start -->
+
+    <div class="container">
+      <h2>Our Partners</h2>
+      <div class="logo-box">
+      <section class="customer-logos slider">
+        <div class="slide">
+          <img
+            src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"
+          />
+        </div>
+      </section>
+    </div>
+    </div>
+
+    <!-- logo section end -->
+
+    <!-- Why chose section start -->
+
+    <section class="container about-us">
+      <h2>Why Choose Us</h2>
+
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 col-12 ag-courses_box">
+          <div class="ag-courses_item">
+            <a href="#" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+              <div class="icon">
+                <i class="fa-solid fa-lightbulb fa-beat"></i>
+              </div>
+              <h5>Innovative Solutions</h5>
+              <p>
+                We're committed to staying at the forefront of digital innovation, continuously enhancing our products to meet evolving business needs..
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-12 ag-courses_box">
+          <div class="ag-courses_item">
+            <a href="#" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+              <div class="icon">
+                <i class="fa-solid fa-user-clock fa-beat"></i>
+              </div>
+              <h5>User-Friendly Interfaces</h5>
+              <p>
+                Our platforms are designed with simplicity in mind, ensuring that users of all skill levels can leverage our tools effectively.
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-12 ag-courses_box">
+          <div class="ag-courses_item">
+            <a href="#" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+              <div class="icon">
+                <i class="fa-solid fa-arrow-up-right-dots fa-beat-fade"></i>
+              </div>
+              <h5>Scalability</h5>
+              <p>
+                Whether you're a startup or a multinational corporation, our solutions are scalable to accommodate your growth journey.
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-12 ag-courses_box">
+          <div class="ag-courses_item">
+            <a href="#" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+              <div class="icon">
+                <i class="fa-solid fa-handshake fa-beat"></i>
+              </div>
+              <h5>Dedicated Support</h5>
+              <p>
+                Our team of experts is here to provide ongoing support and guidance, ensuring that you get the most out of our products.
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why chose us section end -->
+
+    <!-- explore business section start -->
+
+    <section class="our-work container">
+
+      <h2>Explore Our Product</h2>
+
+      <div class="row">
+        <div class="col-lg-7">
+          
+          <div class="product-content">
+            <h1>GoWeb: DIY Website Builder</h1>
+            <p>Create stunning websites effortlessly with GoWeb. Our intuitive platform empowers users to design and customize their online presence without any coding knowledge. Whether you're a small business owner, freelancer, or entrepreneur, GoWeb equips you with the tools to showcase your brand beautifully.</p>
+          </div>
+          
+          <div class="product-content">
+            <h1>GoERP: Enterprise Resources Planning</h1>
+            <p>Streamline your business operations with GoERP. Our comprehensive ERP solution caters to the unique needs of enterprises, offering modules for finance, accounting, human resources, supply chain management, and more. Gain real-time insights, optimize processes, and drive growth with GoERP.</p>
+          </div>
+         
+          <div class="product-content">
+            <h1>GoLMS: Learning Management Software</h1>
+            <p> Foster a culture of continuous learning with GoLMS. Our robust learning management system enables organizations to create, deliver, and track online training programs with ease. From employee onboarding to professional development, GoLMS empowers you to nurture talent and drive performance.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-5 img">
+          <div class="wrapper">
+            <ul class="sistema">
+                <li class="orbita centro"><span class="centro"></span></li>
+                <li class="orbita uno"><span class="planeta uno"></span></li>
+                <li class="orbita dos"><span class="planeta dos"></span></li>
+                <li class="orbita tres"><span class="planeta tres"></span></li>
+            </ul>
+        </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- explore business section end -->
+
+    <!-- pricing section start -->
+
+    <section class="pricing">
+      <h2>Our Pricing Plan</h2>
+      <div id="price">
+        <!--price tab-->
+        <div class="plan">
+          <div class="plan-inner">
+          <div class="entry-title">
+            <h3>FREE</h3>
+            <div class="price">$0</div>
+          </div>
+          <div class="entry-content">
+            <ul>
+            <li>Page 20</li>
+            <li>Blog 20</li>
+            <li>Donation 20</li>
+            <li>Job 30</li>
+            <li>Event 14</li>
+            </ul>
+          </div>
+          <div class="btn">
+            <a href="#">Order Now</a>
+          </div>
+          </div>
+        </div>
+        <!-- end of price tab-->
+        <!--price tab-->
+        <div class="plan basic">
+          <div class="plan-inner">
+          <div class="hot">hot</div>
+          <div class="entry-title">
+            <h3>BASIC</h3>
+            <div class="price">$50</div>
+          </div>
+          <div class="entry-content">
+            <ul>
+              <li>Page 50</li>
+              <li>Blog 50</li>
+              <li>Donation 50</li>
+              <li>Job 60</li>
+              <li>Event 30</li>
+            </ul>
+          </div>
+          <div class="btn">
+            <a href="#">Order Now</a>
+          </div>
+          </div>
+        </div>
+        <!-- end of price tab-->
+        <!--price tab-->
+        <div class="plan standard">
+          <div class="plan-inner">
+          <div class="entry-title">
+            <h3>MEDIUM</h3>
+            <div class="price">$75</div>
+          </div>
+          <div class="entry-content">
+            <ul>
+              <li>Page 100</li>
+              <li>Blog 100</li>
+              <li>Donation 70</li>
+              <li>Job 50</li>
+              <li>Event 48</li>
+            </ul>
+          </div>
+          <div class="btn">
+            <a href="#">Order Now</a>
+          </div>
+          </div>
+        </div>
+        <!-- end of price tab-->
+        <!--price tab-->
+        <div class="plan ultimite">
+          <div class="plan-inner">
+          <div class="entry-title">
+            <h3>UPGRADE</h3>
+            <div class="price">$100</div>
+          </div>
+          <div class="entry-content">
+            <ul>
+              <li>Page 200</li>
+              <li>Blog 150</li>
+              <li>Donation 140</li>
+              <li>Job 100</li>
+              <li>Event 60</li>
+            </ul>
+          </div>
+          <div class="btn">
+            <a href="#">Order Now</a>
+          </div>
+          </div>
+        </div>
+        <!-- end of price tab-->
+        </div>
+      </section>
+
+    <!-- pricing section end -->
+
+    <!-- demo video section start -->
+
+    <section class="demo container-fluid">
+      <h2>Demo Video</h2>
+
+      <div class="container">
+        <div class="row demo-content">
+          <div class="col-lg-7 col-sm-7 col-12 video">
+            <img src="images/laptop screen.png" alt="">
+          <video controls="controls" autoplay>
+            <source src="images/Dummy Video For Website - YouTube.mkv" type="video/mp4"/>
+           </video>
+          </div>
+          <div class="col-lg-5 col-sm-5 col-12 indicator">
+            <img src="images/indicator.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- demo video section end -->
+
+    <!-- faq section start -->
+<!-- 
+    <section class="container-fluid faq-sc">
+      <div class="faq-content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-4 col-sm-4 col-12 faq-img">
+              <img src="images/mainImg.png" alt="">
+            </div>
+            <div class="col-lg-8 col-sm-8 col-12 faq-text">
+              <h1>Frequently asked Question</h1>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      How can i use this website templet ?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis quas consequatur doloremque eum praesentium molestiae culpa assumenda impedit, laborum voluptatem, unde, aliquam molestias nisi sapiente.</p>
+                    </div>
+                  </div>
+                </div>  
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                      What Are the entry requirment ?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis quas consequatur doloremque eum praesentium molestiae culpa assumenda impedit, laborum voluptatem, unde, aliquam molestias nisi sapiente.</p>
+                    </div>
+                  </div>
+                </div>  
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                     How can i give the payment for uses ?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse " aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis quas consequatur doloremque eum praesentium molestiae culpa assumenda impedit, laborum voluptatem, unde, aliquam molestias nisi sapiente.</p>
+                    </div>
+                  </div>
+                </div>  
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                     How do i purches membership ?
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse " aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis quas consequatur doloremque eum praesentium molestiae culpa assumenda impedit, laborum voluptatem, unde, aliquam molestias nisi sapiente.</p>
+                    </div>
+                  </div>
+                </div>  
+              </div> 
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section> -->
+
+    <!-- faq section end -->
+
+    <!-- sign in section start -->
+
+    <section class="sign-in container">
+
+      <h2>Sign up to our newslatter</h2>
+
+       <div class="email-login">
+      <input type="email" placeholder="Enter Your Email">
+      <button class="btn"><i class="fa-solid fa-right-to-bracket fa-beat"></i></button>
+       </div>
+      
+
+    </section>
+
+    <!-- sign in section end -->
+
+    <!-- growth potential start -->
+    <section class="container growth-potential">
+
+      <div class="img-section">
+        <img src="images/good business need a great website!1.png" alt="" class="img-1">
+      <img src="images/good business need a great website!.png" alt="" class="img-2">
+      </div>
+      <h1>Unleash <br>your <span class="gp-head">growth potential</span></h1>
+      <div class="g-icons">
+        <button class="btn">Start now</button>
+      <i class="fa-solid fa-arrow-up fa-bounce"></i>
+      </div>
+        <p>No credit Card required instant access</p>
+     
+      
+      
+
+    </section>
+    <!-- growth potential end -->
+
+    <!-- footer section start -->
+
+    <footer class="new_footer_area bg_color">
+      <div class="new_footer_top">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-3 col-md-6 col-12 ">
+                    <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                      <img src="images/GO VISITAL WHITE LOGO.png" alt="" width="40%">
+                       <p class="footer-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse provident quisquam iste molestiae nobis ex voluptatum cum, repellat aperiam. Ex deserunt recusandae mollitia est at repudiandae rerum nisi, fugiat animi?</p>
+                   </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-6 community">
+                      <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                          <h3 class="f-title f_600 t_color f_size_18">Community</h3>
+                          <ul class="list-unstyled f_list">
+                              <li><a href="#">About</a></li>
+                              <li><a href="#">Templates</a></li>
+                              <li><a href="#">Press</a></li>
+                              <li><a href="#">FaQ</a></li>
+                              <li><a href="#">Privacy Policy</a></li>
+                              <li><a href="#">Terms Condition</a></li>
+                          </ul>
+                      </div> 
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-6 ">
+                      <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                          <h3 class="f-title f_600 t_color f_size_18">Our Templates</h3>
+                          <ul class="list-unstyled f_list">
+                              <li><a href="#">Donation</a></li>
+                              <li><a href="#">Job Post</a></li>
+                              <li><a href="#">Events</a></li>
+                              <li><a href="#">Support Ticket</a></li>
+                              <li><a href="#">Ecommerce</a></li>
+                              <li><a href="#">Knowledgebase</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-12 adrs ">
+                    <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                      <h3 class="f-title f_600 t_color f_size_18">Contact Info</h3>
+                     <div class="contact-info">
+                      <i class="fa-solid fa-location-dot fa-bounce"></i>
+                      <p>41/1 , Hilton Mall , Boston</p>
+                     </div>
+                     <div class="contact-info">
+                      <i class="fa-solid fa-phone fa-shake"></i>
+                      <p>+012-78901234</p>
+                     </div>
+                     <div class="contact-info">
+                      <i class="fa-solid fa-envelope fa-flip"></i>
+                      <p>example@example.com</p>
+                     </div>
+                     <div class="f_social_icon">
+                      <a href="#" class="fab fa-facebook"></a>
+                      <a href="#" class="fab fa-twitter"></a>
+                      <a href="#" class="fab fa-linkedin"></a>
+                      <a href="#" class="fab fa-pinterest"></a>
+                  </div>
+                      
+                  </div>
+                  </div>
+              </div>
+          </div>
+          <div class="footer_bg">
+              <div class="footer_bg_one"></div>
+              <div class="footer_bg_two"></div>
+          </div>
+      </div>
+      <div class="container footer_bottom">
+        <p class="mb-0 f_400">© 2024 GoVisital. All Rights Reserved</p>
+      </div>
+  </footer>
+  
+
+    <!-- footer section end -->
+
+    <script
+      src="https://code.jquery.com/jquery-2.2.0.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
